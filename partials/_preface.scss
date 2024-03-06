@@ -1,0 +1,22 @@
+main {
+    .preface_section {
+        .container {
+            flex-direction: column;
+
+            .preface-header {
+                width: 100%;
+                h1 {
+                    text-align: center;
+                }
+                margin-bottom: 2rem;
+            }
+            .preface-media {
+                width: 100%;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    
+}

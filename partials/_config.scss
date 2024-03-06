@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "Type Machine";
+    src: url("../font/type-machine.ttf");
+}
+@font-face {
+    font-family: "Inter Regular";
+    src: url("../font/Inter-Regular.ttf");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Inter Bold";
+    src: url("../font/Inter-Bold.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Inter Italic";
+    src: url("../font/Inter-Italic.ttf");
+    font-style: italic;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+$primary-jaune: #FFFBDC;
+
+$section-mt: 4.5rem;
+$section-mb: 4.5rem;
+$container-maxWidth: 1400px;
+
+$small-text-size: 1.2rem;
+$small-text-font: "Inter Regular";
+$bold-text:  "Inter Bold";
+$italic-text: "Inter Italic";
+
+
+
+  
