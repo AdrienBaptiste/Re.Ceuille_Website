@@ -32,12 +32,15 @@ header {
             border: 2px dashed orange;
             padding-top: 5rem;
             padding-bottom: 5rem;;
-    
-            h2 {
-                font-family: "Inter Regular";
-                font-weight: normal;
-                animation: anime 1.5s infinite ease-in-out alternate;
-                -webkit-animation: anime 1.5s infinite ease-in-out alternate;
+            
+            a {
+                h2 {
+                    font-family: "Inter Regular";
+                    font-weight: normal;
+                    cursor: pointer;
+                    animation: anime 1.5s infinite ease-in-out alternate;
+                    -webkit-animation: anime 1.5s infinite ease-in-out alternate;
+                }
             }
             svg {
                 position: absolute;
