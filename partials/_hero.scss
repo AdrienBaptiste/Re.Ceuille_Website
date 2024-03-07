@@ -1,0 +1,69 @@
+.hero_section {
+    margin-top: 0;
+    
+    .hero_container {
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 5rem;
+        gap: 5rem;
+
+        .hero-content {
+            display: flex;
+            gap: 5rem;
+            justify-content: space-between;
+
+            .hero-text {
+                max-width: 600px;
+                display: flex;
+                align-items: flex-end;
+
+                p {
+                    text-align: right;
+                }
+            }
+        }
+        .hero-scroll-text {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px dashed orange;
+            padding-top: 5rem;
+            padding-bottom: 5rem;;
+            
+            a {
+                h2 {
+                    font-family: "Inter Regular";
+                    font-weight: normal;
+                    cursor: pointer;
+                    animation: anime 1.5s infinite ease-in-out alternate;
+                    -webkit-animation: anime 1.5s infinite ease-in-out alternate;
+                }
+            }
+            svg {
+                position: absolute;
+                width: 100px;
+                z-index: -1;
+                animation: animeFleche 1.5s infinite ease-in-out alternate;
+                -webkit-animation: animeFleche 1.5s infinite ease-in-out alternate;
+            }
+        }
+    }
+}
+
+@keyframes anime {
+    0% {
+        transform: translateY(-8px);
+    }
+    100% {
+        transform: translateY(8px);
+    }
+}
+@keyframes animeFleche {
+    0% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(15px);
+    }
+}
