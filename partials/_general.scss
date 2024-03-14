@@ -1,5 +1,6 @@
 .section {
     display: flex;
+    position: relative;
     margin: auto;
     margin-top: $section-mt;
     margin-bottom: $section-mb;
@@ -25,11 +26,29 @@ h1 {
 }
 
 h2 {
-    font-size: 2.5rem;
+    font-family: 'Type Machine';
+    font-weight: normal;
+    font-size: 3.5rem;
 }
 
 .small-text {
     font-size: $small-text-size;
     font-family: $small-text-font;
 }
+.txt-EN {
+    display: none
+}
+.paysage-bg {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+    bottom: 0;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+
 

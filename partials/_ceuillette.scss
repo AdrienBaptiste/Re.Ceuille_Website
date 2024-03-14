@@ -1,0 +1,73 @@
+.ceuillette_section {
+
+    .container {
+        flex-direction: column;
+
+        .ceuillette-header {
+            margin: 4rem 0rem 4rem 3rem;
+        }
+        .ceuillette-content {
+            display: flex;
+
+            .souvenir {
+                position: relative;
+                display: flex;
+                flex-direction: column;
+
+                .lettre {
+                    position: absolute;
+                    width: 100px; 
+                }
+
+                .ceuillette-media {
+                    max-width: 400px;
+    
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+            .souvenir1 {
+                p {
+                    margin: 2rem 2rem 2rem 0rem;
+                }
+                .lettre-Ma {
+                    
+                }
+            }
+            .souvenir2 {
+                display: flex;
+                align-items: flex-end;
+                text-align: right;
+                p {
+                    margin: 2rem 0rem 2rem 2rem;
+                }
+            }
+            .souvenir3 {
+                
+            }
+            .souvenir4 {
+            
+            }
+            .souvenir5 {
+            
+            }
+            .souvenir6 {
+            
+            }
+            .souvenir7 {
+            
+            }
+            .souvenir8 {
+            
+            }
+            .souvenir9 {
+            
+            }
+            .souvenir10 {
+            
+            }
+        }
+    }
+    
+}
