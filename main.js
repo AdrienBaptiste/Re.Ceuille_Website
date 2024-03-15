@@ -1,12 +1,21 @@
-const dashSwitch = document.querySelector(".dash-switch");
+const checkbox = document.querySelector('.dash-switch-checkbox');
+const allSections = document.querySelectorAll(".section");
+const allContainers = document.querySelectorAll(".container");
 
-dashSwitch.addEventListener("click", deleteDashs);
-
-function deleteDashs() {
-  const dashSlider = document.getElementById(".dash-switch-slider");
-  if (dashSlider.checked) {
-    alert("checked");
-  } else {
-    alert("You didn't check it! Let me check it for you.");
-  }
-}
+checkbox.addEventListener('change', function () {
+    if (checkbox.checked) {
+        allSections.forEach(function (section) {
+            section.style.border = "2px dashed red";
+        });
+        allContainers.forEach(function (container) {
+            container.style.border = "2px dashed blue";
+        });
+    } else {
+        allSections.forEach(function (section) {
+          section.style.border = "none";
+        });
+        allContainers.forEach(function (container) {
+            container.style.border = "none";
+        });
+    } 
+});
