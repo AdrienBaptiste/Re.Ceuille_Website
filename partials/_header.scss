@@ -1,8 +1,30 @@
 header {
     nav {
         background-color: $primary-jaune;
-        height: 80px;
+        height: 150px;
         position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .logo {
+            width: 100px;
+            height: 100px;
+        }
+
+        
+
+    }
+    
+    .sidebar {
+        z-index: 10;
+        width: 70px;
+        height: 300px;
+        background-color: rgba(0, 0, 0, 0.081);
+        position: fixed;
+        top: 40%;
+        border-radius: 0 10px 10px 0;
+        display: grid;
+        place-items: center;
 
         .dash-switch {
             position: relative;
@@ -39,7 +61,6 @@ header {
                 }
             }
         }
-        
         .dash-switch-checkbox {
             &:checked {
                 & + .slider {
@@ -57,12 +78,8 @@ header {
                 }
             }
         }
-        
-
-
         .lang-switch {
             position: relative;
-            right: 4rem;
             top: 2rem;
             display: inline-block;
             width: 60px;
@@ -109,5 +126,5 @@ header {
             }
         }
 
-    }        
+    }
 }
