@@ -6,68 +6,417 @@
         .ceuillette-header {
             margin: 4rem 0rem 4rem 3rem;
         }
+
         .ceuillette-content {
             display: flex;
+            gap: 5rem;
 
             .souvenir {
-                position: relative;
                 display: flex;
                 flex-direction: column;
 
-                .lettre {
-                    position: absolute;
-                    width: 100px; 
-                }
-
                 .ceuillette-media {
                     max-width: 400px;
-    
-                    img {
+                    position: relative;
+                    margin: 2rem 0;
+
+                    .illu {
                         width: 100%;
+                    }
+
+                    .lettre {
+                        position: absolute;
+                        width: 100px;
+                        transition: all .2s ease-in-out;
+
+                        &:hover {
+                            scale: 1.2;
+                        }
                     }
                 }
             }
-            .souvenir1 {
-                p {
-                    margin: 2rem 2rem 2rem 0rem;
-                }
-                .lettre-Ma {
-                    
-                }
-            }
-            .souvenir2 {
-                display: flex;
-                align-items: flex-end;
-                text-align: right;
-                p {
-                    margin: 2rem 0rem 2rem 2rem;
-                }
-            }
-            .souvenir3 {
-                
-            }
-            .souvenir4 {
-            
-            }
-            .souvenir5 {
-            
-            }
-            .souvenir6 {
-            
-            }
-            .souvenir7 {
-            
-            }
-            .souvenir8 {
-            
-            }
-            .souvenir9 {
-            
-            }
-            .souvenir10 {
-            
-            }
         }
     }
-    
+
+}
+
+.ceuillette1 {
+    .souvenir1 {
+        p {
+            margin: 2rem 2rem 2rem 0rem;
+        }
+
+        .lettre {
+            top: 0;
+            right: 50px;
+        }
+    }
+
+    .souvenir2 {
+        display: flex;
+        align-items: flex-end;
+        text-align: right;
+
+        p {
+            margin: 2rem 0rem 2rem 2rem;
+        }
+
+        .lettre {
+            bottom: 0;
+            left: 10px;
+        }
+    }
+}
+
+
+.ceuillette2 {
+    .ceuillette-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .souvenir3 {
+        display: flex;
+        flex-direction: row !important;
+
+        p {
+            margin: 2rem 2rem 2rem 0rem;
+        }
+
+        .lettre {
+            bottom: 0;
+            left: -200px;
+        }
+    }
+
+    .souvenir4 {
+        display: flex;
+        align-items: flex-end;
+        text-align: right;
+        display: flex;
+        flex-direction: row !important;
+
+        p {
+            margin: 2rem 0rem 2rem 2rem;
+        }
+
+        .lettre {
+            top: 50px;
+            right: -150px;
+        }
+    }
+}
+
+
+.ceuillette3 {
+    .souvenir5 {
+        display: flex;
+
+        p {
+            margin: 2rem 2rem 2rem 0rem;
+        }
+
+        .illu {
+            width: 80% !important;
+        }
+
+        .lettre {
+            top: 0;
+            left: 50%;
+        }
+    }
+
+    .souvenir6 {
+        align-items: flex-end;
+        text-align: right;
+        display: flex;
+
+        p {
+            margin: 2rem 0rem 2rem 2rem;
+        }
+
+        .lettre {
+            top: 50%;
+            left: -200px;
+        }
+
+        .illu {
+            border-radius: 50%;
+        }
+    }
+}
+
+
+.ceuillette4 {
+    .ceuillette-content {
+        display: flex;
+        flex-direction: column;
+        gap: 0 !important;
+    }
+
+    .souvenir7 {
+        display: flex;
+        flex-direction: row !important;
+
+        p {
+            margin: 2rem 2rem 2rem 0rem;
+        }
+
+        .lettre {
+            top: 100px;
+            left: -200px;
+        }
+
+        .illu {
+            max-width: 400px;
+        }
+    }
+
+    .souvenir8 {
+        display: flex;
+        align-items: flex-end;
+        text-align: right;
+        display: flex;
+        flex-direction: row !important;
+
+        p {
+            margin: 2rem 0rem 2rem 2rem;
+        }
+
+        .lettre {
+            top: 50px;
+            right: -150px;
+        }
+    }
+}
+
+
+.ceuillette5 {
+    .souvenir9 {
+        display: flex;
+
+        p {
+            margin: 2rem 2rem 2rem 0rem;
+        }
+
+        .illu {
+            width: 80% !important;
+        }
+
+        .lettre {
+            top: -40px;
+            left: 0;
+        }
+    }
+
+    .souvenir10 {
+        align-items: flex-end;
+        text-align: right;
+        display: flex;
+
+        p {
+            margin: 2rem 0rem 2rem 2rem;
+        }
+
+        .lettre {
+            top: 0;
+            right: 0;
+        }
+    }
+}
+
+
+.ceuillette6 {
+    .souvenir11 {
+        display: flex;
+
+        p {
+            margin: 2rem 2rem 2rem 0rem;
+        }
+
+        .illu {
+            max-width: 200px;
+        }
+
+        .lettre {
+            top: 20px;
+            left: 20px;
+        }
+    }
+
+    .souvenir12 {
+        align-items: flex-end;
+        text-align: right;
+        display: flex;
+
+        p {
+            margin: 2rem 0rem 2rem 2rem;
+        }
+
+        .lettre {
+            top: 50%;
+            left: -20px;
+            transform: translate(-50%, -50%);
+        }
+    }
+}
+
+
+.ceuillette7 {
+    .souvenir13 {
+        display: flex;
+
+        p {
+            margin: 2rem 2rem 2rem 0rem;
+        }
+
+        .illu {
+            max-width: 500px;
+        }
+
+        .lettre {
+            bottom: -60px;
+            right: -40px;
+        }
+    }
+
+    .souvenir14 {
+        align-items: flex-end;
+        text-align: right;
+        display: flex;
+
+        p {
+            margin: 2rem 0rem 2rem 2rem;
+        }
+
+        .illu {
+            max-width: 300px;
+        }
+
+        .lettre {
+            bottom: 0;
+            left: -110px;
+        }
+    }
+}
+
+
+.ceuillette8 {
+    .souvenir15 {
+        display: flex;
+
+        p {
+            margin: 2rem 2rem 2rem 0rem;
+        }
+
+        .illu {
+            max-width: 200px;;
+        }
+
+        .lettre {
+            top: 0;
+            right: 0;
+        }
+    }
+
+    .souvenir16 {
+        align-items: flex-end;
+        justify-content: flex-end;
+        text-align: right;
+        display: flex;
+
+        p {
+            margin: 2rem 0rem 2rem 2rem;
+        }
+
+        .illu {
+            max-width: 300px;
+        }
+
+        .lettre {
+            bottom: 0;
+            left: -110px;
+        }
+    }
+}
+
+
+.ceuillette9 {
+    .souvenir17 {
+        display: flex;
+
+        p {
+            margin: 2rem 2rem 2rem 0rem;
+        }
+
+        .illu {
+            max-width: 200px;;
+        }
+
+        .lettre {
+            bottom: 0;
+            right: 0;
+        }
+    }
+
+    .souvenir18 {
+        align-items: flex-end;
+        justify-content: flex-end;
+        text-align: right;
+        display: flex;
+
+        p {
+            margin: 2rem 0rem 2rem 2rem;
+        }
+
+        .illu {
+            max-width: 300px;
+        }
+
+        .lettre {
+            bottom: -50px;
+            left: -50px;
+        }
+    }
+}
+
+
+.ceuillette10 {
+    .ceuillette-content {
+        flex-direction: column;
+    }
+    .souvenir19 {
+        display: flex;
+        flex-direction: row!important;
+
+        p {
+            margin: 2rem 2rem 2rem 0rem;
+        }
+
+        .illu {
+            width: 200px!important;
+        }
+
+        .lettre {
+            bottom: 0;
+            left: -100px;
+        }
+    }
+
+    .souvenir20 {
+        display: flex;
+        flex-direction: row!important;
+        p {
+            margin: 2rem 0rem 2rem 2rem;
+        }
+
+        .illu {
+            width: 300px!important;
+        }
+
+        .lettre {
+            bottom: -20px;
+            right: -70px;
+        }
+    }
 }
