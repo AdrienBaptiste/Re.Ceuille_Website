@@ -77,6 +77,12 @@ const txtCarmen = document.querySelector(".txt_carmen");
 const txtManuel = document.querySelector(".txt_manuel");
 const txtRachel = document.querySelector(".txt_rachel");
 
+const txtChristiane_EN = document.querySelector(".txt_christiane_EN");
+const txtPierreJean_EN = document.querySelector(".txt_pierre-jean_EN");
+const txtCarmen_EN = document.querySelector(".txt_carmen_EN");
+const txtManuel_EN = document.querySelector(".txt_manuel_EN");
+const txtRachel_EN = document.querySelector(".txt_rachel_EN");
+
 
 function checkOrder() {
     imgChristiane.classList.add("none");
@@ -91,6 +97,13 @@ function checkOrder() {
     txtManuel.classList.add("none");
     txtRachel.classList.add("none");
 
+    txtChristiane_EN.classList.add("none");
+    txtPierreJean_EN.classList.add("none");
+    txtCarmen_EN.classList.add("none");
+    txtManuel_EN.classList.add("none");
+    txtRachel_EN.classList.add("none");
+    
+
     var dropContainer = document.getElementById('drop-container');
     var children = dropContainer.children;
     var order = '';
@@ -103,26 +116,31 @@ function checkOrder() {
             imgProfil.classList.toggle("none");
             imgPierrejean.classList.toggle("none");
             txtPierreJean.classList.toggle("none");
+            txtPierreJean_EN.classList.toggle("none");
             break;
         case 'Ch2ristiane':
             imgProfil.classList.toggle("none");
             imgChristiane.classList.toggle("none");
             txtChristiane.classList.toggle("none");
+            txtChristiane_EN.classList.toggle("none");
             break;
         case 'Rachel':
             imgProfil.classList.toggle("none");
             imgRachel.classList.toggle("none");
             txtRachel.classList.toggle("none");
+            txtRachel_EN.classList.toggle("none");
             break;
         case 'Carmen':
             imgProfil.classList.toggle("none");
             imgCarmen.classList.toggle("none");
             txtCarmen.classList.toggle("none");
+            txtCarmen_EN.classList.toggle("none");
             break;
         case 'Manuel':
             imgProfil.classList.toggle("none");
             imgManuel.classList.toggle("none");
             txtManuel.classList.toggle("none");
+            txtManuel_EN.classList.toggle("none");
             break;
         default:
             imgProfil.classList.remove("none");
