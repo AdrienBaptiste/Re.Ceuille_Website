@@ -144,7 +144,7 @@ function checkOrder() {
             break;
         default:
             imgProfil.classList.remove("none");
-            alert('NON');
+            alert("Ce prénom ne correspond à aucun profil de sénior.");
     }
 }
 
