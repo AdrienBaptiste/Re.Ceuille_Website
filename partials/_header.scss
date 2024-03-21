@@ -9,6 +9,11 @@ header {
         .logo {
             width: 100px;
             height: 100px;
+            transition: all .2s ease-in-out;
+
+            &:hover {
+                scale: 0.9;
+            }
         }
 
     }
